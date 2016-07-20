@@ -1,0 +1,2912 @@
+@prefix :        <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#SectorSistemaConducenteDelCorazónHazDeHis" .
+
+[]    <IRI>   "#OrganoTubular" .
+
+[]    <IRI>   "#TunicaCorazónEndocardio" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneOrganoTipo" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#Tunica" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#TunicaVasosSanguineosIntima" .
+
+[]    <IRI>   "#Organo" .
+
+[]    <IRI>   "#SectorValvula" .
+
+[]    <IRI>   "#SectorSistemaConducenteDelCorazónNodoAtrioVentricular" .
+
+[]    <IRI>   "#tieneValvula" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    a       owl:Class ;
+      <IRI>   "#TunicaVasosSanguineosMedia" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#SistemaCirculatorio" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#Tunica" .
+
+[]    <IRI>   "#SistemaCirculatorio" .
+
+[]    <IRI>   "#esCercanoA" .
+
+[]    <IRI>   "#esOrganoDe" .
+
+[]    <IRI>   "#esOrganoDe" .
+
+[]    <IRI>   "#esOrganoDe" .
+
+[]    <datatypeIRI> "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral" .
+
+[]    <IRI>   "#grosor" .
+
+[]    <IRI>   "#TunicaVasosSanguineosMedia" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#Tunica" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#SectorCuerdasTendinosas" .
+
+[]    <IRI>   "#TunicaVasosSanguineosMedia" .
+
+[]    <IRI>   "#TunicaVasosSanguineosIntima" .
+
+[]    <IRI>   "#TunicaVasosSanguineosIntima" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#Tunica" .
+
+[]    <IRI>   "#estaCompuestoDe" .
+
+[]    <IRI>   "#TunicaCorazónEndotelio" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#TunicaVasosSanguineosAdventicia" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#SectorMusculoPectinado" .
+
+[]    <IRI>   "#TunicaCorazónSubendocardio" .
+
+[]    <IRI>   "#esOrganoDe" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#OrganoTubular" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#OrganoCapilar" .
+
+[]    <IRI>   "#tieneTipo" .
+
+[]    <IRI>   "#estaCompuestoDe" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#tieneTipo" .
+
+[]    <IRI>   "#OrganoTipo" .
+
+[]    <IRI>   "#TunicaVasosSanguineosIntima" .
+
+[]    <IRI>   "#OrganoArteria" .
+
+[]    <IRI>   "#TunicaCorazónMiocardio" .
+
+[]    <IRI>   "#SectorMusculoTrabéculasCárneas" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#Sistema" .
+
+[]    <IRI>   "#TunicaVasosSanguineosIntima" .
+
+[]    <IRI>   "#TunicaCorazónPericardio" .
+
+[]    <IRI>   "#tieneOrganoTipo" .
+
+[]    <IRI>   "#TunicaVasosSanguineos" .
+
+[]    <IRI>   "#SectorSistemaConducenteDelCorazónFibraDePurkinje" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#OrganoTubular" .
+
+[]    <IRI>   "#SectorMusculoPapilar" .
+
+[]    <IRI>   "#OrganoVena" .
+
+[]    <IRI>   "#tieneTipo" .
+
+[]    <IRI>   "#TunicaVasosSanguineosMedia" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#estaCompuestoDe" .
+
+[]    <IRI>   "#OrganoTubular" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#OrganoTipo" .
+
+[]    <IRI>   "#SectorValvulaTricuspide" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#TunicaCorazónSubendotelio" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneOrganoTipo" .
+
+[]    <IRI>   "#TunicaVasosSanguineosAdventicia" .
+
+[]    <IRI>   "#SistemaCirculatorio" .
+
+[]    <IRI>   "#SectorValvula" .
+
+[]    <IRI>   "#tieneOrgano" .
+
+[]    <IRI>   "#tieneOrganoTipo" .
+
+[]    <IRI>   "#OrganoTipo" .
+
+[]    <IRI>   "#tieneOrganoTipo" .
+
+[]    <IRI>   "#OrganoTipo" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#esOrganoDe" .
+
+[]    <datatypeIRI> "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral" .
+
+[]    <IRI>   "#tieneTipo" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#Organo" .
+
+[]    <IRI>   "#SistemaCirculatorio" .
+
+[]    <IRI>   "#OrganoTubular" .
+
+[]    <IRI>   "#SectorSistemaConducenteDelCorazónNodoSinusal" .
+
+[]    <IRI>   "#tieneOrgano" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    <IRI>   "#TunicaVasosSanguineosAdventicia" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#SectorValvulaMitral" .
+
+[]    <IRI>   "#SectorValvulaAortica" .
+
+[]    <IRI>   "#tieneOrganoTipo" .
+
+[]    <IRI>   "#RegionVentriculoIzquierdo" .
+
+[]    <IRI>   "#OrganoVena" .
+
+[]    <IRI>   "#tieneRegion" .
+
+[]    a       owl:ObjectProperty ;
+      <IRI>   "#tieneOrgano" .
+
+[]    <IRI>   "#SectorValvulaPulmonar" .
+
+[]    <IRI>   "#tieneSector" .
+
+[]    a       owl:Ontology ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:comment"
+              ] ;
+      owl:AnnotationAssertion
+              [ a       owl:AnnotationProperty ;
+                <abbreviatedIRI> "rdfs:label"
+              ] ;
+      owl:ClassAssertion
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:ClassAssertion
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:DataPropertyDomain
+              [ a       owl:DataProperty ;
+                <IRI>   "#grosor"
+              ] ;
+      owl:DataPropertyDomain
+              [ a       owl:DataProperty ;
+                <IRI>   "#espacio"
+              ] ;
+      owl:DataPropertyRange
+              [ a       owl:DataProperty ;
+                <IRI>   "#espacio"
+              ] ;
+      owl:DataPropertyRange
+              [ a       owl:DataProperty ;
+                <IRI>   "#grosor"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularAxilar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscular"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaPulmonar"
+              ] ;
+      owl:Declaration
+              [ a       owl:DataProperty ;
+                <IRI>   "#grosor"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineos"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularPopitlea"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreCavaSuperior"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazón"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibrePalmar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#RegionVentriculoDerecho"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElastica"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénula"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreTibial"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#RegionVentriculoIzquierdo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosMedia"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneOrgano"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoTipo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaSubclavia"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazón"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaMitral"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularRadial"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónSubendotelio"
+              ] ;
+      owl:Declaration
+              [ a       owl:DataProperty ;
+                <IRI>   "#espacio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaTricuspide"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularBraquial"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoTrabéculasCárneas"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#RegionAtrioIzquierdo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#Sistema"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaArteriola"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreCavaInferior"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVena"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneOrganoTipo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreBraquial"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esCercanoA"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreRadial"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#Sector"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaAortica"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénulaMuscular"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónMiocardio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaIliaca"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esRegionDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:NamedIndividual ;
+                <IRI>   "#Corazón"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularPalmar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarFenestrado"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibrePopitlea"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esComponenteDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreAxilar"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneRegion"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaCarotidaComun"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénulaColectora"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaFemoral"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvula"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esSector"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndotelio"
+              ] ;
+      owl:Declaration
+              [ a       owl:NamedIndividual ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularPlantar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarDiscontinuo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorioLinfatico"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarSinusoide"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibrePlantar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibre"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaAorta"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoPapilar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTipoDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorioSanguineo"
+              ] ;
+      owl:Declaration
+              [ a       owl:NamedIndividual ;
+                <IRI>   "#Arteriola"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreYugular"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardioParietal"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónNodoSinusal"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoTubular"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVisceral"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTipo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoPectinado"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTunicaDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarContinuo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#Tunica"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreSubclavia"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónNodoAtrioVentricular"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneSector"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénulaPostcapilar"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoTipo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularTibial"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorCuerdasTendinosas"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esValvulaDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#Organo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosAdventicia"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónSubendocardio"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaPequeñoCalibre"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneValvula"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreIliaca"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#RegionAtrioDerecho"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónHazDeHis"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculo"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosIntima"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónFibraDePurkinje"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularUlnar"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#estaCompuestoDe"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardioVisceral"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreUlnar"
+              ] ;
+      owl:Declaration
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTunica"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreFemoral"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:Declaration
+              [ a       owl:Class ;
+                <IRI>   "#Region"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularAxilar"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarContinuo"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosAdventicia"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardioParietal"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorioLinfatico"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaAorta"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaAortica"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónFibraDePurkinje"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreCavaInferior"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#RegionAtrioDerecho"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#SectorCuerdasTendinosas"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreAxilar"
+              ] ;
+      owl:DisjointClasses
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoPapilar"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorio"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorioSanguineo"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorio"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorio"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#Sistema"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#Organo"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#Organo"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:EquivalentClasses
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoDe"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoTipo"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneValvula"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTunicaDe"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTipo"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esRegionDe"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#estaCompuestoDe"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneSector"
+              ] ;
+      owl:InverseObjectProperties
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esCercanoA"
+              ] ;
+      owl:ObjectPropertyAssertion
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTunica"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneSector"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esRegionDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoTipo"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTipo"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esCercanoA"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esComponenteDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneRegion"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneOrganoTipo"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTunicaDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneOrgano"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#estaCompuestoDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esValvulaDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneValvula"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTipoDe"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTunica"
+              ] ;
+      owl:ObjectPropertyDomain
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esSector"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneRegion"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTunica"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneValvula"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneTipo"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneSector"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esRegionDe"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esSector"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTipoDe"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTunicaDe"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esValvulaDe"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneOrganoTipo"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoTipo"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#tieneOrgano"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoDe"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#estaCompuestoDe"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esCercanoA"
+              ] ;
+      owl:ObjectPropertyRange
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esComponenteDe"
+              ] ;
+      owl:Prefix
+              [ <IRI>   "http://www.w3.org/1999/02/22-rdf-syntax-ns#" ;
+                <name>  "rdf"
+              ] ;
+      owl:Prefix
+              [ <IRI>   "http://www.w3.org/2002/07/owl#" ;
+                <name>  "owl"
+              ] ;
+      owl:Prefix
+              [ <IRI>   "http://www.w3.org/XML/1998/namespace" ;
+                <name>  "xml"
+              ] ;
+      owl:Prefix
+              [ <IRI>   "http://www.univalle.edu.co/ontologies/organ#" ;
+                <name>  ""
+              ] ;
+      owl:Prefix
+              [ <IRI>   "http://www.w3.org/2000/01/rdf-schema#" ;
+                <name>  "rdfs"
+              ] ;
+      owl:Prefix
+              [ <IRI>   "http://www.w3.org/2001/XMLSchema#" ;
+                <name>  "xsd"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculo"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónSubendotelio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#RegionVentriculoIzquierdo"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarContinuo"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaTricuspide"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarDiscontinuo"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónNodoSinusal"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElastica"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónSubendocardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreYugular"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorCuerdasTendinosas"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazón"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaPulmonar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarFenestrado"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibrePopitlea"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaAorta"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónNodoAtrioVentricular"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularBraquial"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularTibial"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#RegionAtrioIzquierdo"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénula"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorioSanguineo"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoPectinado"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaPequeñoCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndotelio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibrePlantar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénulaMuscular"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#RegionVentriculoDerecho"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularAxilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularUlnar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoPapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscular"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorioLinfatico"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénula"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineos"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvula"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreCavaInferior"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaArteriola"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibrePalmar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosAdventicia"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaAortica"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularPlantar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVisceral"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénulaColectora"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreCavaSuperior"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaIliaca"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazón"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreBraquial"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreTibial"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SistemaCirculatorio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosIntima"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaMitral"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreUlnar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#RegionAtrioDerecho"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoTubular"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularPalmar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaSubclavia"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreFemoral"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorMusculoTrabéculasCárneas"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónMiocardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreAxilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaMitral"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaVasosSanguineosMedia"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilarSinusoide"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularRadial"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónHazDeHis"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaCarotidaComun"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreIliaca"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardioVisceral"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónEndocardio"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoCorazon"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaMuscularPopitlea"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénulaPostcapilar"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVénula"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaMedianoCalibreRadial"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorSistemaConducenteDelCorazónFibraDePurkinje"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibreSubclavia"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaGranCalibre"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteriaElasticaFemoral"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoArteria"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#OrganoVenaVena"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#TunicaCorazónPericardioParietal"
+              ] ;
+      owl:SubClassOf
+              [ a       owl:Class ;
+                <IRI>   "#SectorValvulaTricuspide"
+              ] ;
+      owl:SubObjectPropertyOf
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esTipoDe"
+              ] ;
+      owl:SubObjectPropertyOf
+              [ a       owl:ObjectProperty ;
+                <IRI>   "#esOrganoDe"
+              ] ;
+      <ontologyIRI> "http://www.univalle.edu.co/ontologies/organ" .
+
+[]    <IRI>   "#SectorValvula" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneRegion" .
+
+[]    a       owl:Class ;
+      <IRI>   "#TunicaVasosSanguineosMedia" .
+
+[]    <IRI>   "#grosor" .
+
+[]    <IRI>   "#Tunica" .
+
+[]    a       owl:Class ;
+      <IRI>   "#TunicaVasosSanguineosAdventicia" .
+
+[]    <IRI>   "#RegionVentriculoDerecho" .
+
+[]    <IRI>   "#grosor" .
+
+[]    <IRI>   "#OrganoTipo" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneRegion" .
+
+[]    <datatypeIRI> "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral" .
+
+[]    <IRI>   "#RegionAtrioDerecho" .
+
+[]    <IRI>   "#tieneValvula" .
+
+[]    <IRI>   "#tieneTunica" .
+
+[]    <IRI>   "#tieneRegion" .
+
+[]    <IRI>   "#RegionAtrioIzquierdo" .
