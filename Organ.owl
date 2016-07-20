@@ -1,0 +1,3099 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.univalle.edu.co/ontologies/organ"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.univalle.edu.co/ontologies/organ">
+    <Prefix name="" IRI="http://www.univalle.edu.co/ontologies/organ#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Organo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaArteriola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaElastica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaElasticaAorta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaElasticaCarotidaComun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaElasticaFemoral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaElasticaIliaca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaElasticaSubclavia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularAxilar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularBraquial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularPalmar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularPlantar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularPopitlea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularRadial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularTibial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoArteriaMuscularUlnar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoCapilar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoCapilarContinuo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoCapilarDiscontinuo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoCapilarFenestrado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoCapilarSinusoide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoCorazon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoTipo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoTubular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibreCavaInferior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibreCavaSuperior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibreFemoral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibreIliaca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibreSubclavia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaGranCalibreYugular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibreAxilar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibreBraquial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibrePalmar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibrePlantar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibrePopitlea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibreRadial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibreTibial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaMedianoCalibreUlnar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaPequeñoCalibre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaVena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaVénula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaVénulaColectora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaVénulaMuscular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVenaVénulaPostcapilar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganoVisceral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionAtrioDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionAtrioIzquierdo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionVentriculoDerecho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionVentriculoIzquierdo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorCuerdasTendinosas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorMusculo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorMusculoPapilar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorMusculoPectinado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorMusculoTrabéculasCárneas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorSistemaConducenteDelCorazónFibraDePurkinje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorSistemaConducenteDelCorazónHazDeHis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorSistemaConducenteDelCorazónNodoAtrioVentricular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorSistemaConducenteDelCorazónNodoSinusal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorValvula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorValvulaAortica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorValvulaMitral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorValvulaPulmonar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectorValvulaTricuspide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaCirculatorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaCirculatorioLinfatico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaCirculatorioSanguineo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tunica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazón"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónEndocardio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónEndotelio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónMiocardio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónPericardio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónPericardioParietal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónPericardioVisceral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónSubendocardio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaCorazónSubendotelio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaVasosSanguineos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaVasosSanguineosIntima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TunicaVasosSanguineosMedia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esCercanoA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esComponenteDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esOrganoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esOrganoTipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esRegionDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esSector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esTipoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esTunicaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esValvulaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estaCompuestoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneOrgano"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneOrganoTipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneSector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTunica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneValvula"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#espacio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#grosor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arteriola"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corazón"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TunicaCorazónEndocardio"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Organo"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#esOrganoDe"/>
+            <Class IRI="#Sistema"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Organo"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTipo"/>
+            <Class IRI="#OrganoTipo"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTunica"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#TunicaVasosSanguineosMedia"/>
+                <DataHasValue>
+                    <DataProperty IRI="#grosor"/>
+                    <Literal datatypeIRI="&rdf;PlainLiteral">Gruesa</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty IRI="#esCercanoA"/>
+            <Class IRI="#OrganoVena"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OrganoVena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTunica"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+                <DataHasValue>
+                    <DataProperty IRI="#grosor"/>
+                    <Literal datatypeIRI="&rdf;PlainLiteral">Gruesa</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#OrganoVena"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTunica"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#TunicaVasosSanguineosMedia"/>
+                <DataHasValue>
+                    <DataProperty IRI="#grosor"/>
+                    <Literal datatypeIRI="&rdf;PlainLiteral">Delgada</Literal>
+                </DataHasValue>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Sistema"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneOrgano"/>
+            <Class IRI="#Organo"/>
+        </ObjectMinCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SistemaCirculatorio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneOrgano"/>
+            <Class IRI="#Organo"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SistemaCirculatorio"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#tieneOrganoTipo"/>
+            <Class IRI="#OrganoTubular"/>
+        </ObjectAllValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SistemaCirculatorio"/>
+        <ObjectMaxCardinality cardinality="3">
+            <ObjectProperty IRI="#tieneOrganoTipo"/>
+            <Class IRI="#OrganoTubular"/>
+        </ObjectMaxCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SistemaCirculatorioSanguineo"/>
+        <ObjectUnionOf>
+            <Class IRI="#OrganoArteria"/>
+            <Class IRI="#OrganoCapilar"/>
+            <Class IRI="#OrganoVena"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#tieneOrgano"/>
+                <Class IRI="#OrganoCorazon"/>
+            </ObjectAllValuesFrom>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <Class IRI="#Organo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#esOrganoDe"/>
+            <Class IRI="#SistemaCirculatorio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneOrganoTipo"/>
+            <Class IRI="#OrganoTipo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTipo"/>
+            <Class IRI="#OrganoTubular"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosIntima"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosMedia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteria"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#Tunica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaArteriola"/>
+        <Class IRI="#OrganoArteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaElastica"/>
+        <Class IRI="#OrganoArteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaElasticaAorta"/>
+        <Class IRI="#OrganoArteriaElastica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaElasticaCarotidaComun"/>
+        <Class IRI="#OrganoArteriaElastica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaElasticaFemoral"/>
+        <Class IRI="#OrganoArteriaElastica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaElasticaIliaca"/>
+        <Class IRI="#OrganoArteriaElastica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaElasticaSubclavia"/>
+        <Class IRI="#OrganoArteriaElastica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscular"/>
+        <Class IRI="#OrganoArteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularAxilar"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularBraquial"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularPalmar"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularPlantar"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularPopitlea"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularRadial"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularTibial"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoArteriaMuscularUlnar"/>
+        <Class IRI="#OrganoArteriaMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilar"/>
+        <Class IRI="#Organo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilar"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#esOrganoDe"/>
+            <Class IRI="#SistemaCirculatorio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilar"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneOrganoTipo"/>
+            <Class IRI="#OrganoTipo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilar"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTipo"/>
+            <Class IRI="#OrganoTubular"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilar"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineos"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilar"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosIntima"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilarContinuo"/>
+        <Class IRI="#OrganoCapilar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilarDiscontinuo"/>
+        <Class IRI="#OrganoCapilar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilarFenestrado"/>
+        <Class IRI="#OrganoCapilar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCapilarSinusoide"/>
+        <Class IRI="#OrganoCapilar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <Class IRI="#Organo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#esOrganoDe"/>
+            <Class IRI="#SistemaCirculatorio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneOrganoTipo"/>
+            <Class IRI="#OrganoTipo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneRegion"/>
+            <Class IRI="#RegionAtrioDerecho"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneRegion"/>
+            <Class IRI="#RegionAtrioIzquierdo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneRegion"/>
+            <Class IRI="#RegionVentriculoDerecho"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneRegion"/>
+            <Class IRI="#RegionVentriculoIzquierdo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorCuerdasTendinosas"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorMusculoPapilar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorMusculoPectinado"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorMusculoTrabéculasCárneas"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorSistemaConducenteDelCorazónFibraDePurkinje"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorSistemaConducenteDelCorazónHazDeHis"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorSistemaConducenteDelCorazónNodoAtrioVentricular"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorSistemaConducenteDelCorazónNodoSinusal"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorValvulaAortica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorValvulaMitral"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorValvulaPulmonar"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorValvulaTricuspide"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="4">
+            <ObjectProperty IRI="#tieneSector"/>
+            <Class IRI="#SectorValvula"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaCorazónEndocardio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaCorazónMiocardio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaCorazónPericardio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoCorazon"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#Tunica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoTubular"/>
+        <Class IRI="#OrganoTipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVena"/>
+        <Class IRI="#Organo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVena"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#esOrganoDe"/>
+            <Class IRI="#SistemaCirculatorio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVena"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneOrganoTipo"/>
+            <Class IRI="#OrganoTipo"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVena"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTipo"/>
+            <Class IRI="#OrganoTubular"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+        <Class IRI="#OrganoVena"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosIntima"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosMedia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#Tunica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibreCavaInferior"/>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibreCavaSuperior"/>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibreFemoral"/>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibreIliaca"/>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibreSubclavia"/>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaGranCalibreYugular"/>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+        <Class IRI="#OrganoVenaVena"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibreAxilar"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibreBraquial"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibrePalmar"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibrePlantar"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibrePopitlea"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibreRadial"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibreTibial"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaMedianoCalibreUlnar"/>
+        <Class IRI="#OrganoVenaMedianoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaPequeñoCalibre"/>
+        <Class IRI="#OrganoVenaVena"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVena"/>
+        <Class IRI="#OrganoVena"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVena"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVena"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosIntima"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVena"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosMedia"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVena"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#Tunica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVénula"/>
+        <Class IRI="#OrganoVenaPequeñoCalibre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVénula"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#Tunica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVénula"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#tieneTunica"/>
+            <Class IRI="#TunicaVasosSanguineosIntima"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVénulaColectora"/>
+        <Class IRI="#OrganoVenaVénula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVénulaMuscular"/>
+        <Class IRI="#OrganoVenaVénula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVenaVénulaPostcapilar"/>
+        <Class IRI="#OrganoVenaVénula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganoVisceral"/>
+        <Class IRI="#OrganoTipo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionAtrioDerecho"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionAtrioIzquierdo"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionVentriculoDerecho"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionVentriculoIzquierdo"/>
+        <Class IRI="#Region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorCuerdasTendinosas"/>
+        <Class IRI="#Sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorMusculo"/>
+        <Class IRI="#Sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorMusculoPapilar"/>
+        <Class IRI="#SectorMusculo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorMusculoPectinado"/>
+        <Class IRI="#SectorMusculo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorMusculoTrabéculasCárneas"/>
+        <Class IRI="#SectorMusculo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+        <Class IRI="#Sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorSistemaConducenteDelCorazónFibraDePurkinje"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorSistemaConducenteDelCorazónHazDeHis"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorSistemaConducenteDelCorazónNodoAtrioVentricular"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorSistemaConducenteDelCorazónNodoSinusal"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvula"/>
+        <Class IRI="#Sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvulaAortica"/>
+        <Class IRI="#SectorValvula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvulaMitral"/>
+        <Class IRI="#SectorValvula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvulaMitral"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#tieneValvula"/>
+            <Class IRI="#SectorValvula"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvulaPulmonar"/>
+        <Class IRI="#SectorValvula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvulaTricuspide"/>
+        <Class IRI="#SectorValvula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SectorValvulaTricuspide"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#tieneValvula"/>
+            <Class IRI="#SectorValvula"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaCirculatorio"/>
+        <Class IRI="#Sistema"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaCirculatorioLinfatico"/>
+        <Class IRI="#SistemaCirculatorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaCirculatorioSanguineo"/>
+        <Class IRI="#SistemaCirculatorio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazón"/>
+        <Class IRI="#Tunica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónEndocardio"/>
+        <Class IRI="#TunicaCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónEndocardio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#estaCompuestoDe"/>
+            <Class IRI="#TunicaCorazónEndotelio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónEndocardio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#estaCompuestoDe"/>
+            <Class IRI="#TunicaCorazónSubendocardio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónEndocardio"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#estaCompuestoDe"/>
+            <Class IRI="#TunicaCorazónSubendotelio"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónEndotelio"/>
+        <Class IRI="#TunicaCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónMiocardio"/>
+        <Class IRI="#TunicaCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónPericardio"/>
+        <Class IRI="#TunicaCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónPericardioParietal"/>
+        <Class IRI="#TunicaCorazónPericardio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónPericardioVisceral"/>
+        <Class IRI="#TunicaCorazónPericardio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónSubendocardio"/>
+        <Class IRI="#TunicaCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaCorazónSubendotelio"/>
+        <Class IRI="#TunicaCorazón"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaVasosSanguineos"/>
+        <Class IRI="#Tunica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+        <Class IRI="#TunicaVasosSanguineos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaVasosSanguineosIntima"/>
+        <Class IRI="#TunicaVasosSanguineos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TunicaVasosSanguineosMedia"/>
+        <Class IRI="#TunicaVasosSanguineos"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#OrganoArteria"/>
+        <Class IRI="#OrganoCapilar"/>
+        <Class IRI="#OrganoCorazon"/>
+        <Class IRI="#OrganoVena"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrganoArteriaElasticaAorta"/>
+        <Class IRI="#OrganoArteriaElasticaCarotidaComun"/>
+        <Class IRI="#OrganoArteriaElasticaFemoral"/>
+        <Class IRI="#OrganoArteriaElasticaIliaca"/>
+        <Class IRI="#OrganoArteriaElasticaSubclavia"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrganoArteriaMuscularAxilar"/>
+        <Class IRI="#OrganoArteriaMuscularBraquial"/>
+        <Class IRI="#OrganoArteriaMuscularPalmar"/>
+        <Class IRI="#OrganoArteriaMuscularPlantar"/>
+        <Class IRI="#OrganoArteriaMuscularPopitlea"/>
+        <Class IRI="#OrganoArteriaMuscularRadial"/>
+        <Class IRI="#OrganoArteriaMuscularTibial"/>
+        <Class IRI="#OrganoArteriaMuscularUlnar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrganoCapilarContinuo"/>
+        <Class IRI="#OrganoCapilarDiscontinuo"/>
+        <Class IRI="#OrganoCapilarFenestrado"/>
+        <Class IRI="#OrganoCapilarSinusoide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrganoVenaGranCalibre"/>
+        <Class IRI="#OrganoVenaVena"/>
+        <Class IRI="#OrganoVenaVénula"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrganoVenaGranCalibreCavaInferior"/>
+        <Class IRI="#OrganoVenaGranCalibreCavaSuperior"/>
+        <Class IRI="#OrganoVenaGranCalibreFemoral"/>
+        <Class IRI="#OrganoVenaGranCalibreIliaca"/>
+        <Class IRI="#OrganoVenaGranCalibreSubclavia"/>
+        <Class IRI="#OrganoVenaGranCalibreYugular"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OrganoVenaMedianoCalibreAxilar"/>
+        <Class IRI="#OrganoVenaMedianoCalibreBraquial"/>
+        <Class IRI="#OrganoVenaMedianoCalibrePalmar"/>
+        <Class IRI="#OrganoVenaMedianoCalibrePlantar"/>
+        <Class IRI="#OrganoVenaMedianoCalibrePopitlea"/>
+        <Class IRI="#OrganoVenaMedianoCalibreRadial"/>
+        <Class IRI="#OrganoVenaMedianoCalibreTibial"/>
+        <Class IRI="#OrganoVenaMedianoCalibreUlnar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RegionAtrioDerecho"/>
+        <Class IRI="#RegionAtrioIzquierdo"/>
+        <Class IRI="#RegionVentriculoDerecho"/>
+        <Class IRI="#RegionVentriculoIzquierdo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SectorCuerdasTendinosas"/>
+        <Class IRI="#SectorMusculo"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazón"/>
+        <Class IRI="#SectorValvula"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SectorMusculoPapilar"/>
+        <Class IRI="#SectorMusculoPectinado"/>
+        <Class IRI="#SectorMusculoTrabéculasCárneas"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SectorSistemaConducenteDelCorazónFibraDePurkinje"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazónHazDeHis"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazónNodoAtrioVentricular"/>
+        <Class IRI="#SectorSistemaConducenteDelCorazónNodoSinusal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SectorValvulaAortica"/>
+        <Class IRI="#SectorValvulaMitral"/>
+        <Class IRI="#SectorValvulaPulmonar"/>
+        <Class IRI="#SectorValvulaTricuspide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SistemaCirculatorioLinfatico"/>
+        <Class IRI="#SistemaCirculatorioSanguineo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TunicaCorazónPericardioParietal"/>
+        <Class IRI="#TunicaCorazónPericardioVisceral"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TunicaVasosSanguineosAdventicia"/>
+        <Class IRI="#TunicaVasosSanguineosIntima"/>
+        <Class IRI="#TunicaVasosSanguineosMedia"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#OrganoCorazon"/>
+        <NamedIndividual IRI="#Corazón"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TunicaCorazónEndocardio"/>
+        <NamedIndividual IRI="#TunicaCorazónEndocardio"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneTunica"/>
+        <NamedIndividual IRI="#Corazón"/>
+        <NamedIndividual IRI="#TunicaCorazónEndocardio"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esOrganoDe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#esTipoDe"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <ObjectProperty IRI="#esCercanoA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estaCompuestoDe"/>
+        <ObjectProperty IRI="#esComponenteDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esOrganoDe"/>
+        <ObjectProperty IRI="#tieneOrgano"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esOrganoTipo"/>
+        <ObjectProperty IRI="#tieneOrganoTipo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esRegionDe"/>
+        <ObjectProperty IRI="#tieneRegion"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneSector"/>
+        <ObjectProperty IRI="#esSector"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneTipo"/>
+        <ObjectProperty IRI="#esTipoDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esTunicaDe"/>
+        <ObjectProperty IRI="#tieneTunica"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneValvula"/>
+        <ObjectProperty IRI="#esValvulaDe"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esComponenteDe"/>
+        <Class IRI="#Tunica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esOrganoDe"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esOrganoTipo"/>
+        <Class IRI="#OrganoTipo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esRegionDe"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esSector"/>
+        <Class IRI="#OrganoCorazon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esTipoDe"/>
+        <Class IRI="#OrganoTipo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esTunicaDe"/>
+        <Class IRI="#Tunica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esValvulaDe"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estaCompuestoDe"/>
+        <Class IRI="#Tunica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneOrgano"/>
+        <Class IRI="#Sistema"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneOrganoTipo"/>
+        <Class IRI="#Sistema"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneRegion"/>
+        <Class IRI="#OrganoCorazon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneSector"/>
+        <Class IRI="#Sector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipo"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTunica"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneValvula"/>
+        <Class IRI="#SectorValvula"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esComponenteDe"/>
+        <Class IRI="#Tunica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esOrganoDe"/>
+        <Class IRI="#Sistema"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esOrganoTipo"/>
+        <Class IRI="#Sistema"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esRegionDe"/>
+        <Class IRI="#OrganoCorazon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esSector"/>
+        <Class IRI="#Sector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esTipoDe"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esTunicaDe"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esValvulaDe"/>
+        <Class IRI="#SectorValvula"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estaCompuestoDe"/>
+        <Class IRI="#Tunica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneOrgano"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneOrganoTipo"/>
+        <Class IRI="#OrganoTipo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneRegion"/>
+        <Class IRI="#Region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneSector"/>
+        <Class IRI="#OrganoCorazon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneTipo"/>
+        <Class IRI="#OrganoTipo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneTunica"/>
+        <Class IRI="#Tunica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneValvula"/>
+        <Class IRI="#Organo"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#espacio"/>
+        <Class IRI="#Tunica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#grosor"/>
+        <Class IRI="#Tunica"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#espacio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#grosor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Organo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es una agrupación de diversos tejidos que forman una unidad estructural encargada del cumplimiento de una función determinada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Órgano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteria</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">cada uno de los vasos que llevan la sangre oxigenada (exceptuando las arterias pulmonares) desde el corazón hacia las demás partes del cuerpo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteria</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteria</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaArteriola</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> vaso sanguíneo de diámetro menor de 40 o 100 micras</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaArteriola</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteriola</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaArteriola</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Arteriole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaElastica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Conforman las grandes arterias</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElastica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Elástica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElastica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Elastic Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaElasticaAorta</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">principal arteria del cuerpo humano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaAorta</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Aorta Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaAorta</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Aorta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaElasticaCarotidaComun</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">situadas a ambos lados de la región cervical anterior en el cuello</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaCarotidaComun</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Carotida Común</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaCarotidaComun</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Common Carotid Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaElasticaFemoral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> gran arteria del muslo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaFemoral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Femoral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaFemoral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Femoral Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaElasticaIliaca</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">se originan de la bifurcación de la aorta. Las arterias se extienden hacia abajo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaIliaca</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Iliaca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaIliaca</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Iliac Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaElasticaSubclavia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> arteria del miembro superior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaSubclavia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Subclavia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaElasticaSubclavia</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Subclavian Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Constituyen las arterias pequeñas y medianas del organismo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Muscular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Muscular Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularAxilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> constituye la continuación de la subclavia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularAxilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Axilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularAxilar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Axillary Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularBraquial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">arteria del brazo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularBraquial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Braquial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularBraquial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Brachial Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularPalmar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Situada en la mano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularPalmar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Palmar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularPalmar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Palmar Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularPlantar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Situada en el pie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularPlantar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Plantar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularPlantar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Plantar Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularPopitlea</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">prolongación de la arteria femoral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularPopitlea</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Popitlea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularPopitlea</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Popliteal Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularRadial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> arteria del antebrazo que se origina como rama de bifurcación externa de la arteria humeral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularRadial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Radial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularRadial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Radial Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularTibial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Se origina como rama de bifurcación anterior de la arteria poplítea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularTibial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Tibial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularTibial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tibial Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoArteriaMuscularUlnar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">se origina como rama terminal interna de la arteria humeral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularUlnar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Arteria Ulnar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoArteriaMuscularUlnar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ulnar Artery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoCapilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> vasos sanguíneos de menor diámetro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Capillary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoCapilarContinuo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">no poseen poros ni menestras en sus paredes. Se encuentran en los tejidos muscular, nervioso y conectivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarContinuo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capilar Continuo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarContinuo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Continuous Capillary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoCapilarDiscontinuo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">presencia de fenestraciones sin diafragmas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarDiscontinuo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capilar Discontinuo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarDiscontinuo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Discontinuous Capilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoCapilarFenestrado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">poseen poros (fenestras) en sus paredes que estan recubiertos por diafragma de poros. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarFenestrado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capilar Fenestrado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarFenestrado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fenestrated Capillary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoCapilarSinusoide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> pueden tener células endoteliales y lámina basal discontinuas e incluyen muchas menestras grandes sin diafragmas, que aumentan el intercambio entre la sangre y el tejido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarSinusoide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capilar Sinusoide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCapilarSinusoide</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sinusoide Capillary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoCorazon</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> órgano muscular principal del aparato circulatorio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCorazon</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoCorazon</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Heart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene Tubular y Visceral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tipo de Órgano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoTipo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Type of Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoTubular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Órganos huecos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoTubular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tubular Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoTubular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Órgano Tubular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVena</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">vaso sanguíneo que conduce la sangre desde los capilares hasta el corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVena</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVena</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibre</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">aquellas venas cercanas al corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibre</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Large Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibre</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena de Gran Calibre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibreCavaInferior</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">retorna sangre de los miembros inferiores, los órganos del abdomen y la pelvis hasta la aurícula derecha del corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreCavaInferior</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Inferior Vein Cava</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreCavaInferior</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Cava Inferior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibreCavaSuperior</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> recoge la sangre de la cabeza, el cuello, los miembros superiores y el tórax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreCavaSuperior</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Superior Vein Cava</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreCavaSuperior</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Cava Superior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibreFemoral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es la continuación de la vena poplítea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreFemoral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Femoral Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreFemoral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Femoral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibreIliaca</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">prolongación de la vena femoral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreIliaca</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Iliac Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreIliaca</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Iliaca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibreSubclavia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es la continuación de la vena axilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreSubclavia</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Subclavian Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreSubclavia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Subclavia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaGranCalibreYugular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> Drena la sangre que proviene en su mayor parte del cuero cabelludo y de la cara.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreYugular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Jugular Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaGranCalibreYugular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Yugular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibre</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">desde 1 hasta 10 mm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibre</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medium Caliber Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibre</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Mediano Calibre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibreAxilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> conduce la sangre de la parte lateral del tórax, axila y miembro superior hacia el corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreAxilar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Axillary Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreAxilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Axilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibreBraquial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">son venas comitantes de la arteria braquial en el brazo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreBraquial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Brachial Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreBraquial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Braquial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibrePalmar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Recogén sangre de la mano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibrePalmar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Palmar Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibrePalmar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Palmar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibrePlantar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Recogén sangre del pie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibrePlantar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Plantar Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibrePlantar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Plantar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibrePopitlea</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> pasa por detrás del rombo poplíteo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibrePopitlea</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Popliteal Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibrePopitlea</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Popitlea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibreRadial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">su trayectoria a través del dorso de la mano y la cara lateral del antebrazo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreRadial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Radial Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreRadial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Radial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibreTibial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">se origina como rama de bifurcación anterior de la arteria poplítea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreTibial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tibial Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreTibial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Tibial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaMedianoCalibreUlnar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena ulnar .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreUlnar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ulnar Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaMedianoCalibreUlnar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Ulnar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaPequeñoCalibre</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Venas de menor diametro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaPequeñoCalibre</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Small Caliber Vein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaPequeñoCalibre</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vena Pequeño Calibre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaVena</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Las venas de los miembros inferiores de pequeño y mediano calibre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVena</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Vein Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVena</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Órgano Vena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaVénula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">pequeñas venas que conducen la sangre desde los capilares hacia las venas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénula</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Venule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vénula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaVénulaColectora</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">30 - 50 micrones, donde podemos observar una capa muscular continua con gran cantidad de glóbulos rojos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénulaColectora</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Collection Venule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénulaColectora</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vénula Colectora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaVénulaMuscular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">50 - 100 micrones, aquí ya podemos encontrar claramente fibras musculares lisas formando parte de la pared</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénulaMuscular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Muscle Venule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénulaMuscular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vénula Muscular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVenaVénulaPostcapilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">son muy porosas, mas parecidas a capilares que venas en este estado, y los fluidos y células sanguíneas atraviesan fácilmente sus paredes desde el torrente sanguíneo. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénulaPostcapilar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Postcapillary Venule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVenaVénulaPostcapilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vénula Postcapilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrganoVisceral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Órganos macizos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVisceral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Visceral Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganoVisceral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Órgano Visceral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Region</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">zonas específicas delimitadas por ciertas estructuras.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Region</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Region</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Región</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RegionAtrioDerecho</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">una de las cuatro cavidades del corazón, localizada en la parte superior y derecha de éste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionAtrioDerecho</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Atrio Derecho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionAtrioDerecho</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Right Atrium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RegionAtrioIzquierdo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">una de las cuatro cavidades del corazón, localizada en la parte superior e izquierdo de éste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionAtrioIzquierdo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Atrio Izquierdo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionAtrioIzquierdo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Left Atrium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RegionVentriculoDerecho</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">una de las cuatro cavidades del corazón, localizada en la parte inferior y derecha de éste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionVentriculoDerecho</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Right Ventricle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionVentriculoDerecho</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Ventriculo Derecho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RegionVentriculoIzquierdo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">una de las cuatro cavidades del corazón, localizada en la parte inferior e izquireda de éste</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionVentriculoIzquierdo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Left Ventricle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RegionVentriculoIzquierdo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Ventriculo Izquierdo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sector</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sectores anatómicos: partes que se encuentran en una región anatómica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sector</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sector</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorCuerdasTendinosas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibras tendinosas con forma de salvavidas que atraviesan el corazón y conectan las cúspides de las válvulas AV con el músculo papilar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorCuerdasTendinosas</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chordae Tendineae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorCuerdasTendinosas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cuerdas Tendinosas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorMusculo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene musculos papilared, pectinados y trabéculas cárneas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Muscle Sector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Músculo Sector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorMusculoPapilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">proyecciones musculares con forma de cono,sus bases se unen a la pared ventricular,por lo tanto los músculos papilares se encuentran situados en en el interior de los ventrículos cardíacos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculoPapilar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Músculo Papilar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculoPapilar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Papillary Muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorMusculoPectinado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Musculo pectinado que conforma los sectores del corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculoPectinado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Músculo Pectinado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculoPectinado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pectinate Muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorMusculoTrabéculasCárneas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">bandas y fascículos musculares irregulares que se proyectan desde la pared muscular de los ventrículos cardíacos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculoTrabéculasCárneas</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Trabeculae Carneae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorMusculoTrabéculasCárneas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Trabéculas Cárneas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorSistemaConducenteDelCorazón</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">permite que el impulso generado en el nodo sinusal (SA) sea propagado y estimule al miocardio (el músculo cardíaco), causando su contracción</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazón</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Leading System of Heart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazón</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Conducente del Corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorSistemaConducenteDelCorazónFibraDePurkinje</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">forman parte del músculo cardiaco y se localizan en las paredes ventriculares, por debajo del endocardio.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónFibraDePurkinje</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibra de Purkinje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónFibraDePurkinje</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Purkinje Fibers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorSistemaConducenteDelCorazónHazDeHis</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> formación intracardíaca consistente en un fino cordón de naturaleza muscular, de aproximadamente 1 cm de longitud, que forma parte del sistema de conducción del corazón, por medio del cual la excitación de las aurículas se trasmite a los ventrículos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónHazDeHis</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral"> Bundle of His</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónHazDeHis</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Haz de His</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorSistemaConducenteDelCorazónNodoAtrioVentricular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">está formado por células cardíacas especializadas en la formación y la conducción de impulsos eléctricos cardíacos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónNodoAtrioVentricular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Atrioventricular Node</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónNodoAtrioVentricular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Nodo Atrioventricular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorSistemaConducenteDelCorazónNodoSinusal</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es una de las estructuras que compone el sistema de conducción del corazón; recibe el nombre común de «marcapasos del corazón»</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónNodoSinusal</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Nodo Sinusal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorSistemaConducenteDelCorazónNodoSinusal</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sinusal Node</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorValvula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Mecanismo que regula el flujo de la comunicación entre dos partes del sistema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvula</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorValvulaAortica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">se encuentran en los conductos de salida de las cuatro cavidades del corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaAortica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Aortic Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaAortica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula Aortica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorValvulaMitral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Se encuentran en los conductos de salida de las cuatro cavidades del corazón.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaMitral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Left Atrioventricular Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaMitral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mitral Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaMitral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula Atrioventricular Izquierda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaMitral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula Mitral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorValvulaPulmonar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Se encuentran en los conductos de salida de las 4 cavidades del corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaPulmonar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pulmonary Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaPulmonar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula Pulmonar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SectorValvulaTricuspide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Se encuentran en los conductos de salida de las cuatro cavidades del corazón,</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaTricuspide</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Right Atrioventricular Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaTricuspide</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tricuspid Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaTricuspide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula Tricuspide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SectorValvulaTricuspide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Válvula atrioventricular Derecha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sistema</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conjunto de órganos y estructuras que trabajan en conjunto para cumplir algunas funciones especificas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sistema</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sistema</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaCirculatorio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> estructura anatómica compuesta por el sistema cardiovascular  y por el sistema linfático </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaCirculatorio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Circulatory System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaCirculatorio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Circulatorio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaCirculatorioLinfatico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conduce la linfa unidireccionalmente hacia el corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaCirculatorioLinfatico</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lymphatic System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaCirculatorioLinfatico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Linfatico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaCirculatorioSanguineo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conduce y hace circular la sangre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaCirculatorioSanguineo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cardiovascular System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaCirculatorioSanguineo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Sanguineo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tunica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tunica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tunica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Túnica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazón</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capas que componen el corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazón</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Heart&apos;s Layers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazón</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Túnica del corazón</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónEndocardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Membrana que recubre el interior de las cavidades del corazón.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónEndocardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Endocardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónEndocardio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Endocardium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónEndotelio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capa endotelial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónMiocardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Parte muscular del corazón.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónMiocardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Miocardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónMiocardio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Myocardial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónPericardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Membrana fibrosa doble que envuelve el corazón y cuya capa interior está revestida de una membrana serosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónPericardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Pericardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónPericardio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pericardium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónPericardioParietal</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cara interna del pericardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónPericardioParietal</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Parietal Pericardium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónPericardioParietal</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Pericardio Parietal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónPericardioVisceral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cara externa del pericardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónPericardioVisceral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Pericardio Visceral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónPericardioVisceral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Visceral Pericardium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónSubendocardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">corresponde al tejido conectivo laxo que se ubica bajo el subendotelio del endocardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónSubendocardio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Subendocardial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónSubendocardio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Subendocardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaCorazónSubendotelio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> tejido conjuntivo delicado con células ramificadas dispuestas en los inter-espacios del tejido.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónSubendotelio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Subendotelio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaCorazónSubendotelio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Subendotelio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaVasosSanguineos</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capas que componen los vasos sanguineos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineos</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Blood Vessels&apos; Layers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineos</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Túnica Vasos Sanguineos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaVasosSanguineosAdventicia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">túnica externa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineosAdventicia</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Adventitia Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineosAdventicia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Túnica Adventicia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaVasosSanguineosIntima</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">túnica interna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineosIntima</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Inner Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineosIntima</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Túnica Intima</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TunicaVasosSanguineosMedia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">túnica media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineosMedia</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Media Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TunicaVasosSanguineosMedia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Túnica Media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esCercanoA</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cercania de órganos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esCercanoA</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es cercano a </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esCercanoA</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is near to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esComponenteDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esComponenteDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Componente de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esComponenteDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Component of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esOrganoDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esOrganoDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Órgano de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esOrganoDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Organ of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esOrganoTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esOrganoTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Órgano Tipo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esOrganoTipo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Type Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esRegionDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esRegionDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Región de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esRegionDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Region of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esSector</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esSector</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Sector de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esSector</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Sector of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esTipoDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esTipoDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Tipo de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esTipoDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Type of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esTunicaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esTunicaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Túnica de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esTunicaDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Layer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esValvulaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esValvulaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Válvula de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esValvulaDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Valve of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#espacio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Espacios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#espacio</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Espacio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#espacio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estaCompuestoDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#estaCompuestoDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">esta Compuesto de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#estaCompuestoDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Composed of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#grosor</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Ancho, grosor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#grosor</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Grosor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#grosor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneOrgano</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneOrgano</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneOrgano</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Órgano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneOrganoTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneOrganoTipo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Type Organ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneOrganoTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Órgano Tipo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneRegion</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneRegion</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneRegion</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Región</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneSector</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneSector</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Sector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneSector</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Sector</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneTipo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneTipo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Tipo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneTunica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneTunica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneTunica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Túnica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneValvula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneValvula</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Valve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneValvula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Válvula</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

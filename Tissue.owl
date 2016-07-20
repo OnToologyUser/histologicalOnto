@@ -1,0 +1,2423 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.univalle.edu.co/ontologies/Tissue"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.univalle.edu.co/ontologies/Tissue">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Cartilago"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Celula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaAdipocito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaCardiomiocito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaEndotelial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaFibraDePurkinje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaFibroblasto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaMesotelial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CelulaMiocitoLiso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoDenso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoDensoIrregular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoDensoRegular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoEpecializadoReticular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoEspecializado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoEspecializadoAdiposo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoLaxo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConectivoMucoide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecializacionApical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecializacionApicalCilios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecializacionApicalEstereocilios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecializacionApicalMicrovellosidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EspecializacionApicalQueratina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estructura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraFibraColagena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraFibraElastica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraFibraNerviosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraLaminaElasticaExterna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraLaminaElasticaInterna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraRegionLuz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraSenoCoronario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstructuraVasoVasorum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlandulaEndocrina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlandulaExocrina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MecanismoDeSecrecion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MecanismoDeSecrecionApocrina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MecanismoDeSecrecionHolocrina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MecanismoDeSecrecionMerocrina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesenquimatico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morfologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaAdenomero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaAdenomeroAcinar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaAdenomeroTubular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaAdenomeroTubuloAcinar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaCelular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaCelularCilindrica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaCelularCubica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaCelularPlana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaCordonal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorfologiaFolicular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalezaSecrecion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalezaSecrecionMixta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalezaSecrecionMucosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalezaSecrecionSerosa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroCapas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroCapasEstratificado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroCapasSeudoestratificado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroCapasSimple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroCapasTransicional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroConductos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroConductosCompuesto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NumeroConductosSimple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oseo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sanguineo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaNerviosoCentral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaNerviosoPeriferico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaNerviosoPerifericoAutonomo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SistemaNerviosoPerifericoSomatico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tejido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoConectivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoConectivoAdultoPropiamenteDicho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoConectivoEmbrionario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoConectivoEspecializado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoEpitelial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoEpitelialGlandular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoEpitelialPlanoSimple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoMuscular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoMuscularEstriado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoMuscularEstriadoCardiaco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoMuscularEstriadoEsqueletico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoMuscularLiso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoNervioso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoNerviosoComponente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoNerviosoComponenteGlias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoNerviosoComponenteNeurona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TejidoNerviosoDistribucionAnatomica"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TieneMorfologia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TieneNumeroCapas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esCelulaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esCercanoA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esComponenteDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esMorfologiaDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esNumeroCapasDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estaCompuestaPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCelula"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cercano"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#TejidoEpitelial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#esCercanoA"/>
+            <Class IRI="#ConectivoDenso"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TejidoEpitelial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#esCercanoA"/>
+            <Class IRI="#EstructuraRegionLuz"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TejidoEpitelial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#esCercanoA"/>
+            <Class IRI="#TejidoMuscularLiso"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TejidoEpitelial"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCelula"/>
+            <Class IRI="#CelulaEndotelial"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TejidoEpitelial"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#TieneMorfologia"/>
+            <Class IRI="#MorfologiaCelular"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TejidoEpitelial"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#TieneNumeroCapas"/>
+            <Class IRI="#NumeroCapas"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Cartilago"/>
+        <Class IRI="#TejidoConectivoEspecializado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaAdipocito"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaCardiomiocito"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaEndotelial"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaFibraDePurkinje"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaFibroblasto"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaMesotelial"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CelulaMiocitoLiso"/>
+        <Class IRI="#Celula"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoDenso"/>
+        <Class IRI="#TejidoConectivoAdultoPropiamenteDicho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoDensoIrregular"/>
+        <Class IRI="#ConectivoDenso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoDensoRegular"/>
+        <Class IRI="#ConectivoDenso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoEpecializadoReticular"/>
+        <Class IRI="#ConectivoEspecializado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoEspecializado"/>
+        <Class IRI="#TejidoConectivoAdultoPropiamenteDicho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoEspecializadoAdiposo"/>
+        <Class IRI="#ConectivoEspecializado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoLaxo"/>
+        <Class IRI="#TejidoConectivoAdultoPropiamenteDicho"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConectivoMucoide"/>
+        <Class IRI="#TejidoConectivoEmbrionario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecializacionApical"/>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecializacionApicalCilios"/>
+        <Class IRI="#EspecializacionApical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecializacionApicalEstereocilios"/>
+        <Class IRI="#EspecializacionApical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecializacionApicalMicrovellosidades"/>
+        <Class IRI="#EspecializacionApical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EspecializacionApicalQueratina"/>
+        <Class IRI="#EspecializacionApical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraFibraColagena"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraFibraElastica"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraFibraNerviosa"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraLaminaElasticaExterna"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraLaminaElasticaExterna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estaCompuestaPor"/>
+            <Class IRI="#EstructuraFibraElastica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraLaminaElasticaInterna"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraLaminaElasticaInterna"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#estaCompuestaPor"/>
+            <Class IRI="#EstructuraFibraElastica"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraRegionLuz"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraSenoCoronario"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstructuraVasoVasorum"/>
+        <Class IRI="#Estructura"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlandulaEndocrina"/>
+        <Class IRI="#TejidoEpitelialGlandular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlandulaExocrina"/>
+        <Class IRI="#TejidoEpitelialGlandular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MecanismoDeSecrecion"/>
+        <Class IRI="#GlandulaExocrina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MecanismoDeSecrecionApocrina"/>
+        <Class IRI="#MecanismoDeSecrecion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MecanismoDeSecrecionHolocrina"/>
+        <Class IRI="#MecanismoDeSecrecion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MecanismoDeSecrecionMerocrina"/>
+        <Class IRI="#MecanismoDeSecrecion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesenquimatico"/>
+        <Class IRI="#TejidoConectivoEmbrionario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morfologia"/>
+        <Class IRI="#GlandulaEndocrina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaAdenomero"/>
+        <Class IRI="#GlandulaExocrina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaAdenomeroAcinar"/>
+        <Class IRI="#MorfologiaAdenomero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaAdenomeroTubular"/>
+        <Class IRI="#MorfologiaAdenomero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaAdenomeroTubuloAcinar"/>
+        <Class IRI="#MorfologiaAdenomero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaCelularCilindrica"/>
+        <Class IRI="#MorfologiaCelular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaCelularCubica"/>
+        <Class IRI="#MorfologiaCelular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaCelularPlana"/>
+        <Class IRI="#MorfologiaCelular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaCordonal"/>
+        <Class IRI="#Morfologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorfologiaFolicular"/>
+        <Class IRI="#Morfologia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalezaSecrecion"/>
+        <Class IRI="#GlandulaExocrina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalezaSecrecionMixta"/>
+        <Class IRI="#NaturalezaSecrecion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalezaSecrecionMucosa"/>
+        <Class IRI="#NaturalezaSecrecion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalezaSecrecionSerosa"/>
+        <Class IRI="#NaturalezaSecrecion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroCapasEstratificado"/>
+        <Class IRI="#NumeroCapas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroCapasSeudoestratificado"/>
+        <Class IRI="#NumeroCapas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroCapasSimple"/>
+        <Class IRI="#NumeroCapas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroCapasTransicional"/>
+        <Class IRI="#NumeroCapas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroConductos"/>
+        <Class IRI="#GlandulaExocrina"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroConductosCompuesto"/>
+        <Class IRI="#NumeroConductos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NumeroConductosSimple"/>
+        <Class IRI="#NumeroConductos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oseo"/>
+        <Class IRI="#TejidoConectivoEspecializado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sanguineo"/>
+        <Class IRI="#TejidoConectivoEspecializado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaNerviosoCentral"/>
+        <Class IRI="#TejidoNerviosoDistribucionAnatomica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaNerviosoPeriferico"/>
+        <Class IRI="#TejidoNerviosoDistribucionAnatomica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaNerviosoPerifericoAutonomo"/>
+        <Class IRI="#SistemaNerviosoPeriferico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SistemaNerviosoPerifericoSomatico"/>
+        <Class IRI="#SistemaNerviosoPeriferico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tejido"/>
+        <ObjectUnionOf>
+            <Class IRI="#TejidoConectivo"/>
+            <Class IRI="#TejidoEpitelial"/>
+            <Class IRI="#TejidoMuscular"/>
+            <Class IRI="#TejidoNervioso"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoConectivo"/>
+        <Class IRI="#Tejido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoConectivo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCelula"/>
+            <Class IRI="#CelulaAdipocito"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoConectivo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCelula"/>
+            <Class IRI="#CelulaFibroblasto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoConectivoAdultoPropiamenteDicho"/>
+        <Class IRI="#TejidoConectivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoConectivoEmbrionario"/>
+        <Class IRI="#TejidoConectivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoConectivoEspecializado"/>
+        <Class IRI="#TejidoConectivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoEpitelial"/>
+        <Class IRI="#Tejido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoEpitelialGlandular"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoEpitelialPlanoSimple"/>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#TieneMorfologia"/>
+            <Class IRI="#MorfologiaCelularPlana"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#TieneNumeroCapas"/>
+            <Class IRI="#NumeroCapasSimple"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscular"/>
+        <Class IRI="#Tejido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscular"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCelula"/>
+            <Class IRI="#CelulaCardiomiocito"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscular"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCelula"/>
+            <Class IRI="#CelulaFibraDePurkinje"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscular"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCelula"/>
+            <Class IRI="#CelulaMiocitoLiso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscularEstriado"/>
+        <Class IRI="#TejidoMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscularEstriadoCardiaco"/>
+        <Class IRI="#TejidoMuscularEstriado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscularEstriadoEsqueletico"/>
+        <Class IRI="#TejidoMuscularEstriado"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoMuscularLiso"/>
+        <Class IRI="#TejidoMuscular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoNervioso"/>
+        <Class IRI="#Tejido"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoNerviosoComponente"/>
+        <Class IRI="#TejidoNervioso"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoNerviosoComponenteGlias"/>
+        <Class IRI="#TejidoNerviosoComponente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoNerviosoComponenteNeurona"/>
+        <Class IRI="#TejidoNerviosoComponente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TejidoNerviosoDistribucionAnatomica"/>
+        <Class IRI="#TejidoNervioso"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ConectivoDenso"/>
+        <Class IRI="#ConectivoEspecializado"/>
+        <Class IRI="#ConectivoLaxo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ConectivoDensoIrregular"/>
+        <Class IRI="#ConectivoDensoRegular"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MorfologiaCelularCilindrica"/>
+        <Class IRI="#MorfologiaCelularCubica"/>
+        <Class IRI="#MorfologiaCelularPlana"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MorfologiaCordonal"/>
+        <Class IRI="#MorfologiaFolicular"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NaturalezaSecrecionMixta"/>
+        <Class IRI="#NaturalezaSecrecionMucosa"/>
+        <Class IRI="#NaturalezaSecrecionSerosa"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#NumeroConductosCompuesto"/>
+        <Class IRI="#NumeroConductosSimple"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SistemaNerviosoCentral"/>
+        <Class IRI="#SistemaNerviosoPeriferico"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SistemaNerviosoPerifericoAutonomo"/>
+        <Class IRI="#SistemaNerviosoPerifericoSomatico"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TejidoConectivo"/>
+        <Class IRI="#TejidoEpitelial"/>
+        <Class IRI="#TejidoMuscular"/>
+        <Class IRI="#TejidoNervioso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TejidoConectivoAdultoPropiamenteDicho"/>
+        <Class IRI="#TejidoConectivoEmbrionario"/>
+        <Class IRI="#TejidoConectivoEspecializado"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TejidoEpitelialGlandular"/>
+        <Class IRI="#TejidoEpitelialRevestimiento"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TejidoMuscularEstriado"/>
+        <Class IRI="#TejidoMuscularLiso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#TejidoNerviosoComponenteGlias"/>
+        <Class IRI="#TejidoNerviosoComponenteNeurona"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#TieneNumeroCapas"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esMorfologiaDe"/>
+        <ObjectProperty IRI="#TieneMorfologia"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esNumeroCapasDe"/>
+        <ObjectProperty IRI="#TieneNumeroCapas"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneCelula"/>
+        <ObjectProperty IRI="#esCelulaDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <ObjectProperty IRI="#esCercanoA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estaCompuestaPor"/>
+        <ObjectProperty IRI="#esComponenteDe"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneMorfologia"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneNumeroCapas"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esCelulaDe"/>
+        <Class IRI="#Celula"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <Class IRI="#Tejido"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esComponenteDe"/>
+        <Class IRI="#Estructura"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esMorfologiaDe"/>
+        <Class IRI="#MorfologiaCelular"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esNumeroCapasDe"/>
+        <Class IRI="#NumeroCapas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estaCompuestaPor"/>
+        <Class IRI="#Estructura"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCelula"/>
+        <Class IRI="#Tejido"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TieneMorfologia"/>
+        <Class IRI="#MorfologiaCelular"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#TieneNumeroCapas"/>
+        <Class IRI="#NumeroCapas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esCelulaDe"/>
+        <Class IRI="#Tejido"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <Class IRI="#EstructuraRegionLuz"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esCercanoA"/>
+        <Class IRI="#Tejido"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esComponenteDe"/>
+        <Class IRI="#Estructura"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esMorfologiaDe"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esNumeroCapasDe"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estaCompuestaPor"/>
+        <Class IRI="#Estructura"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneCelula"/>
+        <Class IRI="#Celula"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cercano"/>
+        <Class IRI="#TejidoEpitelial"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cercano"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cartilago</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">elástico, carente de vasos sanguíneos, formados principalmente por matriz extracelular y por células dispersas denominadas condrocitos. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cartilago</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cartilage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cartilago</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cartilago</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Cartilago</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.165.382</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Celula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> Unidad morfológica y funcional de todo ser vivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Celula</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Celula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Célula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaAdipocito</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Células que forman el tejido adiposo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaAdipocito</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Adipocito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaAdipocito</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Adipocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaCardiomiocito</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Células del miocardio o músculo cardíaco capaces de contraerse de forma espontánea e individual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaCardiomiocito</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cardiomiocito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaCardiomiocito</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cardiomyocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaEndotelial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Célula aplanada que recubre el interior de los vasos sanguíneos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaEndotelial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Endotelial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaEndotelial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Endothelial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaFibraDePurkinje</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Forman parte del músculo cardiaco y se localizan en las paredes ventriculares, por debajo del endocardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaFibraDePurkinje</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibra de Purkinje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaFibraDePurkinje</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Purkinje Fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaFibroblasto</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Célula residente del tejido conectivo propiamente dicho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaFibroblasto</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fibroblast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaFibroblasto</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibroblasto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaMesotelial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Células que forman el mesotelio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaMesotelial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Mesotelial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaMesotelial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mesothelial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CelulaMiocitoLiso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">La fibra muscular o miocito liso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaMiocitoLiso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Miocito Liso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CelulaMiocitoLiso</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Smooth Muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cercano</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Propiedad de cercania</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cercano</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cercano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cercano</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Near</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoDenso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Se caracteriza por la ausencia casi completa de otros tipos de células que no sean fibroblastos y por la escasa cantidad de sustancia intercelular amorfa, siendo rica en sustancia intercelular forme, tales como fibras colágenas o elásticas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoDenso</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dense Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoDenso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Denso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoDensoIrregular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">En este tejido conectivo denso irregular se observan fibras de colágeno dispuestas en forma aleatoria y muy poca sustancia fundamental.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoDensoIrregular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Irregular Dense Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoDensoIrregular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Denso Irregular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoDensoRegular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">compuesto de fibras colágenas dispuestas en una forma ordenada, paralela una respecto a la otra, lo que proporciona la máxima fortaleza.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoDensoRegular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Regular Dense Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoDensoRegular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Denso Regular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoEpecializadoReticular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">forma una malla tridimensional estable, que otorga un soporte estructural a las células migratorias de órganos relacionados directamente con los leucocitos de la sangre como son el bazo, los ganglios linfáticos y la médula ósea hematopoyética.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoEpecializadoReticular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Reticular Specialised Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoEpecializadoReticular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Especializado Reticular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoEspecializado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene el tejido reticular y adiposo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoEspecializado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Conectivo Especializado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoEspecializado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Specialised Connective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoEspecializadoAdiposo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">predominan las células conjuntivas llamadas adipocitos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoEspecializadoAdiposo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Adipose Specialised Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoEspecializadoAdiposo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Adiposo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#ConectivoEspecializadoAdiposo</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.165.114</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoLaxo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tejido muy abundante en el organismo, cuyo origen proviene del mesénquima.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoLaxo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Loose Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoLaxo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Laxo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConectivoMucoide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido conectivo embrionario que se localiza alrededor de los vasos sanguíneos del cordón umbilical, cerca de su inserción con la placa coriónica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoMucoide</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Conectivo Mucoide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ConectivoMucoide</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mucoid Connective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspecializacionApical</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Especializaciones de la superficie celular en los epitelios.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApical</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Apical Specialization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApical</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Especialización Apical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspecializacionApicalCilios</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Formaciones celulares alargadas dotadas de movimiento pendular u ondulante. Son más largas que las microvellosidades.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalCilios</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cilia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalCilios</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cilios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspecializacionApicalEstereocilios</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Son microvellosidades largas que se agrupan en forma de manojos piriformes. Son inmóviles, estarían relacionados con la absorción y transporte de líquidos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalEstereocilios</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Estereocilios</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalEstereocilios</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stereocilia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspecializacionApicalMicrovellosidades</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Son expansiones citoplasmáticas cilíndricas limitadas por la unidad de membrana cuya principal función es aumentar la superficie de absorción.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalMicrovellosidades</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Microvellosidades</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalMicrovellosidades</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Microvilli</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EspecializacionApicalQueratina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">forma una capa fuerte y resistente a la fricción, impermeable al agua y casi impenetrable por bacterias, adaptándose a funciones de protección.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalQueratina</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Keratin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EspecializacionApicalQueratina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Queratina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Estructura</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Conjunto de relaciones que mantienen entre sí las partes de un todo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estructura</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Estructura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estructura</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraFibraColagena</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">El colágeno constituye una familia de proteínas que se diferencian durante la evolución y adoptan una morfología y patología características.
+Las fibras de colágeno son las más frecuentes en el tejido conjuntivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraFibraColagena</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Collagen Fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraFibraColagena</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibra Colagena</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraFibraElastica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Las fibras elásticas son paquetes de proteínas (elastina) que se encuentran en la matriz extracelular del tejido conectivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraFibraElastica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Elastic Fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraFibraElastica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibra Elastica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraFibraNerviosa</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Prolongación de las neuronas o cilindroejes, de forma alargada y delgada, que pueden transmitir el impulso nervioso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraFibraNerviosa</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Fibra Nerviosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraFibraNerviosa</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nerve Fiber</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraLaminaElasticaExterna</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">lámina elástica externa que separa la media de la adventicia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraLaminaElasticaExterna</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">External Elastic Lamina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraLaminaElasticaExterna</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Lamina Elastica Externa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraLaminaElasticaInterna</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> lámina elástica interna separando la íntima de la media</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraLaminaElasticaInterna</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Internal Elastic Lamina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraLaminaElasticaInterna</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lamina Elastica Interna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraRegionLuz</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Regiones de luz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraRegionLuz</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Light Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraRegionLuz</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Región de Luz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraSenoCoronario</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conjunto de venas que se unen para formar un gran vaso que recoge la sangre del miocardio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraSenoCoronario</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Coronary Sinus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraSenoCoronario</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Seno Coronario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EstructuraVasoVasorum</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Son pequeños vasos que están en las paredes de las grandes arterias y venas que le ayudan a nutrirse a las mismas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraVasoVasorum</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Vasa Vasorum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EstructuraVasoVasorum</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vasa Vasorum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GlandulaEndocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conjunto de glándulas que producen sustancias mensajeras llamadas hormonas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GlandulaEndocrina</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Endocrine Gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GlandulaEndocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Glandula Endrocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GlandulaExocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conjunto de glándulas que se distribuyen por todo el organismo, formando parte de distintos órganos y aparatos que producen diferentes sustancias no hormonales.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GlandulaExocrina</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exocrine Gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GlandulaExocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Glandula Exocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecanismoDeSecrecion</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Pueden tener diferentes tipos de secreción</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecion</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Mecanismo de Secreción</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecion</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Secretion Mechanism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecanismoDeSecrecionApocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Vesículas llenas de la sustancia se unen al citoplasma que rodea la membrana celular de las glándulas. En el proceso, las células pierden parte de la membrana celular y el citoplasma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecionApocrina</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Apocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecionApocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Apocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecanismoDeSecrecionHolocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">El producto es liberado por la ruptura y desintegración de la célula, lisis celular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecionHolocrina</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Holocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecionHolocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Holocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MecanismoDeSecrecionMerocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Pequeñas vesículas llenas de la sustancia se funden con la membrana (exocitosis). En este proceso, las células no pierden ninguna parte de la membrana celular y ningún o muy poco citoplasma.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecionMerocrina</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Merocrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MecanismoDeSecrecionMerocrina</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Merocrine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mesenquimatico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> tejido del organismo embrionario, de conjuntivo laxo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mesenquimatico</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mesenchymal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mesenquimatico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Mesenquimatico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Morfologia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene morfología cordonal y folicular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Morfologia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Morfologia</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaAdenomero</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene Acinar, Tubular y Tubulo-Acinar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomero</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología del Adenomero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomero</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Morphology of Adenomere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaAdenomeroAcinar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">El adenómero también esférico, presenta un lumen pequeño</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomeroAcinar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Acinar Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomeroAcinar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología Acinar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaAdenomeroTubular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">el lumen posee un diámetro similar entre el excretómero y el
+adenómero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomeroTubular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología Tubular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomeroTubular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tubular Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaAdenomeroTubuloAcinar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">constan de dos elementos: los acinos glandulares, donde encontramos las célula productoras de la secreción glandular, y un conjunto de estructuras tubulares huecas, como ramas de un árbol, donde los estrechos canalículos confluyen progresivamente a conductos finales más y más gruesos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomeroTubuloAcinar</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología Túbulo-Acinar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaAdenomeroTubuloAcinar</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tubule-Acinar Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaCelular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Establece forma y tamaño de las células</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cell Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología Celular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaCelularCilindrica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Alargadas perpendiculares a las regiones de luz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelularCilindrica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cilindrica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelularCilindrica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cylindrical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaCelularCubica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Circulares</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelularCubica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cubic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelularCubica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cubica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaCelularPlana</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Alargadas paralelas a las regiones de luz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelularPlana</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Flat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCelularPlana</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Plana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaCordonal</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Células dispuestas formando cordones</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCordonal</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cordonal Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaCordonal</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología Cordonal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MorfologiaFolicular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Células dispuestas formando esferas denominadas folículos </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaFolicular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Follicular Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MorfologiaFolicular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Morfología Folicular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturalezaSecrecion</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene Secreción mixta, mucosa y serosa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecion</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Naturaleza de la Secreción</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecion</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nature of Secretion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturalezaSecrecionMixta</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral"> tienen secreción interna y externa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecionMixta</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mixed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecionMixta</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Mixta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturalezaSecrecionMucosa</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">que secretan mucopolisacáridos y dan lugar a una secreción viscosa (el mucus o moco).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecionMucosa</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Mucosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecionMucosa</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mucous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NaturalezaSecrecionSerosa</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">cuya secreción está formada por proteínas o glicoproteínas, que se acumulan en gránulos basófilos o acidófilos, dependiendo de la naturaleza de la(s) proteína(s) que contienen. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecionSerosa</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Serosa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NaturalezaSecrecionSerosa</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Serous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroCapas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Cantidad de capas o túnicas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapas</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Number of Layers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Número de Capas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroCapasEstratificado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">formados por un número variable de capas celulares.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasEstratificado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capa Estratificado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasEstratificado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stratified Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroCapasSeudoestratificado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Formado por un número variable de capas, al menos por dos tipos celulares</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasSeudoestratificado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capa Seudoestratificado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasSeudoestratificado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pseudostratified Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroCapasSimple</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Una unica capa celular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasSimple</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capa Simple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasSimple</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Simple Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroCapasTransicional</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">formado por un número variable de capas con una transición entre el epitelio plano estratificado y el cilíndrico estratificado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasTransicional</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Capa Transicional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroCapasTransicional</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Transitional Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroConductos</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene Compuesto y simple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroConductos</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Number of Ducts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroConductos</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Número de Conductos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroConductosCompuesto</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema ductal ramificado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroConductosCompuesto</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Composed Ducts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroConductosCompuesto</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Conductos Compuesto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumeroConductosSimple</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Un único conducto no ramificado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroConductosSimple</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Conductos Simple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NumeroConductosSimple</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Simple Ducts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Oseo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">constituyente principal de los huesos en los vertebrados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oseo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Oseo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Oseo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Osseous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Oseo</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.165.265</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sanguineo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">compuesto de células, fragmentos celulares y una matriz extracelular líquida denominada plasma sanguíneo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sanguineo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bloodstone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sanguineo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sanguíneo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaNerviosoCentral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">constituido por el encéfalo y la médula espinal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoCentral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Central Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoCentral</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Nervioso Central</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaNerviosoPeriferico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">formado por nervios y neuronas que residen o se extienden fuera del sistema nervioso central (SNC), hacia los miembros y órganos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoPeriferico</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peripheral Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoPeriferico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Nervioso Periferico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaNerviosoPerifericoAutonomo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Regula todas las funciones corporales, controla la musculatura lisa, la cardíaca, las vísceras y las glándulas por orden del sistema nervioso central.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoPerifericoAutonomo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peripheral Autonomic Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoPerifericoAutonomo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Nervioso Periferico Autonomo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SistemaNerviosoPerifericoSomatico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Nervios espinales, que son los que envían información sensorial (tacto, dolor) del tronco y las extremidades hacia el sistema nervioso central a través de la médula espinal. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoPerifericoSomatico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Sistema Nervioso Periferico Somatico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SistemaNerviosoPerifericoSomatico</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Somatic Peripheral Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tejido</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">estructuras constituidas por un conjunto organizado de células</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tejido</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tejido</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoConectivo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido que establece conexión con los otros tejidos y sirve de soporte a diferentes estructuras del cuerpo; es un tejido rico en fibras y de abundante sustancia intercelular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivo</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Connective Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivo</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conjuntivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoConectivo</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.165</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoConectivoAdultoPropiamenteDicho</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tipo de tejido conectivo ubicuo, de función más general, menos diferenciado desde el punto de vista histofisiológico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivoAdultoPropiamenteDicho</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Connective Proper  Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivoAdultoPropiamenteDicho</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Adulto Propiamente Dicho</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoConectivoEmbrionario</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene el conectivo mucoide y mesenquimatico.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivoEmbrionario</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Connective Embryonic Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivoEmbrionario</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Embrionario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoConectivoEspecializado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene el cartilago, oseo y sanguineo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivoEspecializado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Connective Specialised Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoConectivoEspecializado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Conectivo Especializado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoEpitelial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">formado por una o varias capas de células unidas entre sí, que puestas recubren todas las superficies libres del organismo, y constituyen el revestimiento interno de las cavidades, órganos huecos, conductos del cuerpo, así como forman las mucosas y las glándulas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelial</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Epithelium Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelial</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Epitelial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoEpitelial</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.272</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoEpitelialGlandular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">conjunto de células cuya función es sintetizar sustancias químicas, como las hormonas, para liberarlas, a menudo en la corriente sanguínea y en el interior de una cavidad corporal o su superficie exterior.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelialGlandular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Glandular Epithelium Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelialGlandular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Epitelial Glandular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoEpitelialGlandular</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45715</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoEpitelialPlanoSimple</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">formado por una sola capa de células aplanadas de contorno poligonal o irregular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelialPlanoSimple</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Simple Flat Epithelial Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelialPlanoSimple</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Epitelial Plano Simple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoEpitelialRevestimiento</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Recubren la superficie corporal externa y los órganos internos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelialRevestimiento</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Epithelial Coating Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoEpitelialRevestimiento</IRI>
+        <Literal datatypeIRI="&xsd;Name">Tejido Epitelial de Revestimiento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoMuscular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">formado por células contráctiles (miocitos) que se han especializado al máximo para conseguir trabajo mecánico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscular</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Muscle Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscular</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Muscular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoMuscular</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.690</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoMuscularEstriado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">compuesto por fibras largas rodeadas de una membrana celular, el sarcolema.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularEstriado</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Striated Muscle Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularEstriado</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Muscular Estriado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoMuscularEstriado</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.690.552</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoMuscularEstriadoCardiaco</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">está compuesto por células musculares cardíacas o cardiomiocitos. Forman parte de la pared del corazón.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularEstriadoCardiaco</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cardiac Striated Muscle Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularEstriadoCardiaco</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Muscular Estriado Cardiaco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoMuscularEstriadoEsqueletico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Insertado en cartílagos o aponeurosis. Está compuesto por células &quot;multinucleadas&quot; largas (hasta 30 cm) y cilíndricas que se contraen para facilitar el movimiento del cuerpo y de sus partes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularEstriadoEsqueletico</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Skeletal Striated Muscle Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularEstriadoEsqueletico</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Muscular Estriado Esquelético</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoMuscularLiso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Se encuentra en las paredes de las vísceras huecas y en la mayor parte de los vasos sanguíneos. Sus células son fusiformes y no presentan estriaciones, ni un sistema de túbulos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularLiso</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Smooth Muscle Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoMuscularLiso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Muscular Liso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoMuscularLiso</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.690.467</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoNervioso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">produce y transmite impulsos nerviosos y está formado por neuronas y células de apoyo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNervioso</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nervous Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNervioso</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Tejido Nervioso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TejidoNervioso</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://bioonto.de/mesh.owl#A10.755</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoNerviosoComponente</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene Glias y Neuronas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoComponente</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoComponente</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Componentes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoNerviosoComponenteGlias</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Son soporte de las neuronas; además intervienen activamente en el procesamiento cerebral de la información en el organismo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoComponenteGlias</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Glia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoComponenteGlias</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Glia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoNerviosoComponenteNeurona</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">especializadas en la recepción de estímulos y conducción del impulso nervioso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoComponenteNeurona</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Neuron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoComponenteNeurona</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Neurona</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TejidoNerviosoDistribucionAnatomica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Contiene Central y periferico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoDistribucionAnatomica</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Anatomic Distribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TejidoNerviosoDistribucionAnatomica</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Distribución Anatomica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TieneMorfologia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TieneMorfologia</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TieneMorfologia</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Morfología</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TieneNumeroCapas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TieneNumeroCapas</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Number of Layers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TieneNumeroCapas</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Número de Capas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esCelulaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esCelulaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Célula de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esCelulaDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Cell of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esCercanoA</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">Relación de cercania entre la región de luz y el tejido</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esCercanoA</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Cercano a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esCercanoA</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">in Near to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esComponenteDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esComponenteDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Componente de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esComponenteDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">in Component of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esMorfologiaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esMorfologiaDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Morfología de </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esMorfologiaDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Morphology of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#esNumeroCapasDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esNumeroCapasDe</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">es Número de Capas de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#esNumeroCapasDe</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Number of Layer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estaCompuestaPor</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#estaCompuestaPor</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">esta Compuesta por</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#estaCompuestaPor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">is Composed for</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tieneCelula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">relación de composición o formación</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneCelula</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has Cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#tieneCelula</IRI>
+        <Literal xml:lang="es" datatypeIRI="&rdf;PlainLiteral">tiene Célula</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnonymousIndividual nodeID="_:http://www.univalle.edu.co/ontologies/Tissue#genid1186766613064"/>
+        <Literal datatypeIRI="&xsd;Name">Epithelium Tissue</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
